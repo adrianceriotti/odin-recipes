@@ -6,14 +6,15 @@ body{
     font-size: 30px;
     font-family: fantasy;
 }
-
+/* Aside moves the steps list to the right. Work could be done on sizing due to mix up with word wraps */
  aside{
     float: right;
     width: 60%;
-
 }
+/* Section floats the ingredients to the left. Work could be done on sizing due to right float getting moved if ingredients trails to far to right side */
 section{
     float: left;
+    
 }
 
 div{
